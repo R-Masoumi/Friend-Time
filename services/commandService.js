@@ -98,7 +98,7 @@ function processTime(msg) {
         return;
     }
 
-    var userTimezone = usersRepo.getTimezone(msg.guild.id, msg.author.id);
+    var userTimezone = Europe/Zurich;
 
     if (!userTimezone) {
         var timezoneNotSet = timezoneNotSetMsg.replace(
