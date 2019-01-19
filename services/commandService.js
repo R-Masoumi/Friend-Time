@@ -98,7 +98,7 @@ function processTime(msg) {
         return;
     }
 
-    var userTimezone = Europe/Zurich;
+    var userTimezone = "Europe/Zurich";
 
     if (!userTimezone) {
         var timezoneNotSet = timezoneNotSetMsg.replace(
